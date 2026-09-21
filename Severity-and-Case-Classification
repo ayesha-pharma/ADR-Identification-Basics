@@ -1,0 +1,270 @@
+# Severity & Case Classification
+
+## Project Overview
+
+This simulated pharmacovigilance project demonstrates the classification of adverse drug reactions based on seriousness, severity, expectedness, and clinical impact.
+
+Multiple simulated cases were reviewed using the available clinical information and classified according to relevant pharmacovigilance principles.
+
+> **Disclaimer:** These are simulated educational cases created for pharmacovigilance training and portfolio purposes. They do not contain real patient data or represent actual safety reports.
+
+---
+
+# Key Concepts
+
+## Seriousness
+
+Seriousness is a regulatory classification based on specific outcome criteria.
+
+An adverse event may be considered serious if it results in or involves:
+
+- Death
+- Life-threatening condition
+- Hospitalization
+- Prolongation of existing hospitalization
+- Persistent or significant disability/incapacity
+- Congenital anomaly/birth defect
+- Other medically important condition
+
+## Severity
+
+Severity describes the intensity of the reported event.
+
+Typical descriptions include:
+
+- Mild
+- Moderate
+- Severe
+
+Severity and seriousness are not interchangeable.
+
+For example, a severe headache may be non-serious, while a mild adverse event requiring hospitalization may meet a seriousness criterion.
+
+## Expectedness
+
+Expectedness refers to whether the nature or specificity of the adverse event is consistent with the applicable reference safety information.
+
+The expectedness assessment should be based on the relevant product information available for the case.
+
+---
+
+# Case 1 – Mild Nausea
+
+## Case Information
+
+| Parameter | Details |
+|---|---|
+| Case ID | SIM-SC-001 |
+| Patient Age | 45 years |
+| Sex | Female |
+| Suspected Drug | Metformin |
+| Indication | Type 2 diabetes mellitus |
+| Adverse Event | Nausea |
+| Outcome | Recovered |
+| Hospitalization | No |
+
+## Classification
+
+| Parameter | Classification |
+|---|---|
+| Severity | Mild |
+| Seriousness | Non-serious |
+| Expectedness | Expected* |
+| Clinical Impact | Low |
+
+### Rationale
+
+The patient experienced nausea without hospitalization, life-threatening consequences, disability, or other serious outcome criteria. The event resolved and therefore does not meet the specified seriousness criteria.
+
+\*Expectedness should ultimately be determined using the applicable reference safety information for the product and region.
+
+---
+
+# Case 2 – Severe Skin Reaction Requiring Hospitalization
+
+## Case Information
+
+| Parameter | Details |
+|---|---|
+| Case ID | SIM-SC-002 |
+| Patient Age | 34 years |
+| Sex | Male |
+| Suspected Drug | Amoxicillin |
+| Indication | Bacterial infection |
+| Adverse Event | Severe generalized skin reaction |
+| Outcome | Recovering |
+| Hospitalization | Yes |
+
+## Classification
+
+| Parameter | Classification |
+|---|---|
+| Severity | Severe |
+| Seriousness | Serious |
+| Expectedness | To be assessed |
+| Clinical Impact | High |
+
+### Rationale
+
+The reaction was severe in intensity and required hospitalization. Hospitalization is a seriousness criterion; therefore, the case is classified as serious regardless of the intensity description.
+
+---
+
+# Case 3 – Headache
+
+## Case Information
+
+| Parameter | Details |
+|---|---|
+| Case ID | SIM-SC-003 |
+| Patient Age | 29 years |
+| Sex | Female |
+| Suspected Drug | Drug X |
+| Indication | Simulated indication |
+| Adverse Event | Headache |
+| Outcome | Recovered |
+| Hospitalization | No |
+
+## Classification
+
+| Parameter | Classification |
+|---|---|
+| Severity | Moderate |
+| Seriousness | Non-serious |
+| Expectedness | To be assessed |
+| Clinical Impact | Low to moderate |
+
+### Rationale
+
+The patient experienced a moderate headache without hospitalization, life-threatening consequences, disability, or another seriousness criterion. Based on the information provided, the event is therefore classified as non-serious.
+
+---
+
+# Case 4 – Anaphylactic Reaction
+
+## Case Information
+
+| Parameter | Details |
+|---|---|
+| Case ID | SIM-SC-004 |
+| Patient Age | 40 years |
+| Sex | Male |
+| Suspected Drug | Drug Y |
+| Indication | Simulated indication |
+| Adverse Event | Anaphylactic reaction |
+| Outcome | Recovered |
+| Life-threatening | Yes |
+
+## Classification
+
+| Parameter | Classification |
+|---|---|
+| Severity | Severe |
+| Seriousness | Serious |
+| Expectedness | To be assessed |
+| Clinical Impact | High |
+
+### Rationale
+
+The reported reaction was life-threatening. A life-threatening event meets a seriousness criterion and is therefore classified as serious.
+
+---
+
+# Case 5 – Mild Dizziness
+
+## Case Information
+
+| Parameter | Details |
+|---|---|
+| Case ID | SIM-SC-005 |
+| Patient Age | 51 years |
+| Sex | Female |
+| Suspected Drug | Drug Z |
+| Indication | Simulated indication |
+| Adverse Event | Dizziness |
+| Outcome | Recovered |
+| Hospitalization | No |
+
+## Classification
+
+| Parameter | Classification |
+|---|---|
+| Severity | Mild |
+| Seriousness | Non-serious |
+| Expectedness | To be assessed |
+| Clinical Impact | Low |
+
+### Rationale
+
+The patient experienced mild dizziness without hospitalization, life-threatening consequences, disability, or other reported seriousness criteria. The case is therefore classified as non-serious based on the available information.
+
+---
+
+# Comparative Case Classification
+
+| Case ID | Adverse Event | Severity | Seriousness | Expectedness | Clinical Impact |
+|---|---|---|---|---|---|
+| SIM-SC-001 | Nausea | Mild | Non-serious | Expected* | Low |
+| SIM-SC-002 | Severe skin reaction | Severe | Serious | To be assessed | High |
+| SIM-SC-003 | Headache | Moderate | Non-serious | To be assessed | Low–moderate |
+| SIM-SC-004 | Anaphylactic reaction | Severe | Serious | To be assessed | High |
+| SIM-SC-005 | Dizziness | Mild | Non-serious | To be assessed | Low |
+
+\*Expectedness must be confirmed against the applicable reference safety information.
+
+---
+
+# Severity vs Seriousness
+
+A key pharmacovigilance principle demonstrated in this project is that **severity and seriousness are different concepts**.
+
+| Severity | Seriousness |
+|---|---|
+| Describes intensity of an event | Describes regulatory significance |
+| Mild, moderate, severe | Serious or non-serious |
+| Based on clinical intensity | Based on defined seriousness criteria |
+| Does not automatically determine seriousness | May be serious even if the event is not described as severe |
+
+### Example
+
+A patient may experience a **severe headache** but not require hospitalization or experience another seriousness criterion. It may therefore be classified as:
+
+**Severe + Non-serious**
+
+Conversely, an event described as **moderate** may result in hospitalization and therefore be:
+
+**Moderate + Serious**
+
+---
+
+# Classification Methodology
+
+Each case was assessed using the following steps:
+
+1. Identify the reported adverse event.
+2. Assess the intensity/severity of the event.
+3. Evaluate each seriousness criterion.
+4. Determine whether the event meets the definition of serious.
+5. Assess expectedness using the applicable reference safety information.
+6. Consider the clinical impact and reported outcome.
+7. Document the classification based only on available case information.
+
+---
+
+# Skills Demonstrated
+
+- ADR severity assessment
+- Seriousness assessment
+- Expectedness assessment
+- Clinical impact evaluation
+- Case classification
+- Pharmacovigilance documentation
+- Safety case review
+- Differentiation between severity and seriousness
+- Identification of missing case information
+
+---
+
+## Disclaimer
+
+This project contains simulated cases created for educational and portfolio purposes. It does not represent real patient data or actual safety reports. Expectedness classifications should be confirmed against the applicable current reference safety information when processing an actual ICSR.
