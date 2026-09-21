@@ -2,136 +2,214 @@
 
 ## Project Overview
 
-This simulated pharmacovigilance project demonstrates the completion of a structured Adverse Drug Reaction (ADR) reporting form based on a patient case scenario.
+This simulated pharmacovigilance project demonstrates the structured documentation of an Adverse Drug Reaction (ADR) based on a patient case scenario.
 
-The exercise focuses on collecting, evaluating, and documenting essential safety information required for pharmacovigilance reporting.
+The exercise focuses on identifying and documenting key information required for an individual case safety report (ICSR), including patient details, reporter information, suspected medicinal product, adverse event, seriousness, outcome, and relevant clinical information.
+
+> **Disclaimer:** This is a simulated educational case created for pharmacovigilance training and portfolio purposes. It does not contain real patient data and is not an actual safety report.
 
 ---
 
-## Case Information
+# Case Summary
 
 | Field | Details |
 |---|---|
-| Case ID | SIM-ADR-004 |
-| Source Type | Healthcare Professional |
+| Case ID | SIM-ICSR-001 |
 | Report Type | Spontaneous |
+| Source | Healthcare Professional |
 | Country | India |
-| Patient Age | 45 years |
+| Initial/Follow-up | Initial |
+| Patient Age | 52 years |
 | Patient Sex | Female |
-| Suspected Drug | Metformin |
-| Indication | Type 2 Diabetes Mellitus |
-| Adverse Event | Nausea and Diarrhea |
+| Suspected Drug | Methotrexate |
+| Indication | Rheumatoid arthritis |
+| Adverse Event | Mouth ulcers |
 
 ---
 
-## Suspected Medication
+# 1. Patient Information
 
 | Field | Details |
 |---|---|
-| Drug Name | Metformin |
-| Dose | 500 mg twice daily |
-| Route | Oral |
-| Indication | Type 2 Diabetes Mellitus |
-| Therapy Start | Day 1 |
-| Therapy Stop | Not reported |
+| Patient ID | SIM-PAT-001 |
+| Age | 52 years |
+| Sex | Female |
+| Weight | Not reported |
+| Medical History | Rheumatoid arthritis |
+| Relevant History | Not reported |
+
+No personally identifiable information is included in this simulated case.
 
 ---
 
-## Adverse Event Details
-
-**Reported Event:** Nausea and diarrhea
-
-**Onset:** Within several days after initiation of metformin.
-
-**Outcome:** Symptoms improved following reduction of the metformin dose.
-
----
-
-## Seriousness Assessment
-
-| Criterion | Assessment |
-|---|---|
-| Death | No |
-| Life-threatening | No |
-| Hospitalization | No |
-| Disability | No |
-| Congenital anomaly | No |
-| Other medically important condition | No |
-| Seriousness | Non-serious |
-
----
-
-## Dechallenge / Rechallenge
-
-**Dechallenge:** Positive response reported following dose reduction, with improvement in gastrointestinal symptoms.
-
-**Rechallenge:** Not reported.
-
----
-
-## Concomitant Medication
-
-| Medication | Dose | Indication |
-|---|---|---|
-| Atorvastatin | 10 mg once daily | Dyslipidemia |
-
----
-
-## Reporter Information
+# 2. Reporter Information
 
 | Field | Details |
 |---|---|
-| Reporter Qualification | Healthcare Professional |
-| Report Type | Spontaneous |
+| Reporter Type | Healthcare Professional |
+| Report Source | Spontaneous |
+| Country | India |
+| Reporter Name | Not provided |
 | Reporter Contact | Not provided |
 
 ---
 
-## ADR Assessment
+# 3. Suspected Medicinal Product
 
-**Suspected Drug:** Metformin
-
-**Reported Adverse Event:** Nausea and diarrhea
-
-**Assessment:** Potential ADR
-
-### Rationale
-
-The adverse events occurred after initiation of metformin therapy and improved following dose reduction. The temporal relationship and clinical course support a possible association between metformin exposure and the reported gastrointestinal symptoms.
-
-No rechallenge information was available.
-
----
-
-## Documentation Approach
-
-The case was documented using the following pharmacovigilance principles:
-
-- Identification of the patient and reporter information
-- Documentation of the suspected medicinal product
-- Recording of the adverse event
-- Assessment of treatment and event timelines
-- Documentation of seriousness criteria
-- Recording of concomitant medication
-- Assessment of dechallenge and rechallenge
-- Documentation of the suspected drug-event relationship
+| Field | Details |
+|---|---|
+| Product | Methotrexate |
+| Active Ingredient | Methotrexate |
+| Dose | 10 mg once weekly |
+| Route | Oral |
+| Indication | Rheumatoid arthritis |
+| Therapy Start Date | Not reported |
+| Therapy Stop Date | Not reported |
+| Action Taken | Not reported |
 
 ---
 
-## Skills Demonstrated
+# 4. Concomitant Medication
 
+| Medication | Dose | Route | Indication |
+|---|---|---|---|
+| Folic acid | 5 mg once weekly | Oral | Supplementation |
+
+---
+
+# 5. Adverse Event
+
+## Reported Event
+
+**Mouth ulcers**
+
+The patient developed mouth ulcers during treatment with methotrexate.
+
+## Event Details
+
+| Field | Details |
+|---|---|
+| Event | Mouth ulcers |
+| Date of Onset | Not reported |
+| Event Status | Not reported |
+| Outcome | Not reported |
+| Treatment for Event | Not reported |
+
+---
+
+# 6. Seriousness Assessment
+
+| Seriousness Criterion | Assessment |
+|---|---|
+| Death | No |
+| Life-threatening | No |
+| Hospitalization | No |
+| Prolonged hospitalization | No |
+| Persistent/significant disability | No |
+| Congenital anomaly/birth defect | No |
+| Other medically important condition | Not reported |
+| Overall Seriousness | Non-serious based on available information |
+
+---
+
+# 7. Dechallenge and Rechallenge
+
+| Assessment | Result |
+|---|---|
+| Dechallenge | Not reported |
+| Rechallenge | Not reported |
+
+No information regarding improvement after withdrawal or recurrence following re-exposure was available in the simulated case.
+
+---
+
+# 8. Laboratory and Diagnostic Information
+
+No laboratory or diagnostic results were reported in the simulated case.
+
+---
+
+# 9. Clinical Assessment
+
+### Suspected Drug
+
+**Methotrexate**
+
+### Adverse Event
+
+**Mouth ulcers**
+
+### Temporal Relationship
+
+The adverse event was reported following exposure to methotrexate. The exact treatment start date and event onset date were not provided.
+
+### Alternative Causes
+
+No alternative cause was reported. Other medications, underlying conditions, infections, or nutritional factors may require consideration during a complete clinical assessment.
+
+### Causality
+
+The available information supports a **potential association** between methotrexate exposure and mouth ulcers. A definitive causality assessment cannot be established from the limited information provided.
+
+---
+
+# 10. Case Narrative
+
+A 52-year-old female patient with rheumatoid arthritis was receiving oral methotrexate 10 mg once weekly along with folic acid supplementation. During treatment, the patient developed mouth ulcers. The event was reported by a healthcare professional as a spontaneous initial report from India. The exact dates of treatment initiation and adverse event onset were not available. Dechallenge and rechallenge information were not reported. Based on the available information, methotrexate was identified as the suspected medicinal product.
+
+---
+
+# 11. Case Assessment Summary
+
+| Parameter | Assessment |
+|---|---|
+| Valid patient | Yes |
+| Valid reporter | Yes |
+| Suspected medicinal product | Methotrexate |
+| Adverse event | Mouth ulcers |
+| Seriousness | Non-serious based on available information |
+| Dechallenge | Not reported |
+| Rechallenge | Not reported |
+| Outcome | Not reported |
+| Causality | Potential association |
+| Case type | Simulated ICSR |
+
+---
+
+# 12. Documentation Principles Demonstrated
+
+This exercise demonstrates the following pharmacovigilance documentation principles:
+
+- Accurate recording of patient information
+- Identification of the reporter
+- Documentation of suspected medicinal product
+- Documentation of concomitant medication
+- Recording of adverse event information
+- Assessment of seriousness criteria
+- Documentation of treatment and event timelines
+- Recording of dechallenge and rechallenge information
+- Documentation of clinical narrative
+- Identification of missing information
+- Avoidance of unsupported assumptions
+
+---
+
+# Skills Demonstrated
+
+- Pharmacovigilance case documentation
+- ICSR data entry concepts
 - ADR reporting
-- Pharmacovigilance documentation
-- Case data entry
+- Patient and reporter data review
 - Suspected drug identification
 - Adverse event documentation
 - Seriousness assessment
 - Medication history review
+- Clinical narrative preparation
 - Dechallenge/rechallenge assessment
-- Structured safety case documentation
+- Case quality review
 
 ---
 
 ## Disclaimer
 
-This is a simulated educational case created for pharmacovigilance training and portfolio purposes. It does not contain real patient information and is not an actual safety report.
+This project is a simulated pharmacovigilance exercise created for educational and portfolio purposes. It does not represent a real patient, healthcare professional, or actual safety report. No real patient-identifiable information is included.
