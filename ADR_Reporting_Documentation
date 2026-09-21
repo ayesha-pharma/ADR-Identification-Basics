@@ -1,0 +1,137 @@
+# ADR Reporting & Documentation
+
+## Project Overview
+
+This simulated pharmacovigilance project demonstrates the completion of a structured Adverse Drug Reaction (ADR) reporting form based on a patient case scenario.
+
+The exercise focuses on collecting, evaluating, and documenting essential safety information required for pharmacovigilance reporting.
+
+---
+
+## Case Information
+
+| Field | Details |
+|---|---|
+| Case ID | SIM-ADR-004 |
+| Source Type | Healthcare Professional |
+| Report Type | Spontaneous |
+| Country | India |
+| Patient Age | 45 years |
+| Patient Sex | Female |
+| Suspected Drug | Metformin |
+| Indication | Type 2 Diabetes Mellitus |
+| Adverse Event | Nausea and Diarrhea |
+
+---
+
+## Suspected Medication
+
+| Field | Details |
+|---|---|
+| Drug Name | Metformin |
+| Dose | 500 mg twice daily |
+| Route | Oral |
+| Indication | Type 2 Diabetes Mellitus |
+| Therapy Start | Day 1 |
+| Therapy Stop | Not reported |
+
+---
+
+## Adverse Event Details
+
+**Reported Event:** Nausea and diarrhea
+
+**Onset:** Within several days after initiation of metformin.
+
+**Outcome:** Symptoms improved following reduction of the metformin dose.
+
+---
+
+## Seriousness Assessment
+
+| Criterion | Assessment |
+|---|---|
+| Death | No |
+| Life-threatening | No |
+| Hospitalization | No |
+| Disability | No |
+| Congenital anomaly | No |
+| Other medically important condition | No |
+| Seriousness | Non-serious |
+
+---
+
+## Dechallenge / Rechallenge
+
+**Dechallenge:** Positive response reported following dose reduction, with improvement in gastrointestinal symptoms.
+
+**Rechallenge:** Not reported.
+
+---
+
+## Concomitant Medication
+
+| Medication | Dose | Indication |
+|---|---|---|
+| Atorvastatin | 10 mg once daily | Dyslipidemia |
+
+---
+
+## Reporter Information
+
+| Field | Details |
+|---|---|
+| Reporter Qualification | Healthcare Professional |
+| Report Type | Spontaneous |
+| Reporter Contact | Not provided |
+
+---
+
+## ADR Assessment
+
+**Suspected Drug:** Metformin
+
+**Reported Adverse Event:** Nausea and diarrhea
+
+**Assessment:** Potential ADR
+
+### Rationale
+
+The adverse events occurred after initiation of metformin therapy and improved following dose reduction. The temporal relationship and clinical course support a possible association between metformin exposure and the reported gastrointestinal symptoms.
+
+No rechallenge information was available.
+
+---
+
+## Documentation Approach
+
+The case was documented using the following pharmacovigilance principles:
+
+- Identification of the patient and reporter information
+- Documentation of the suspected medicinal product
+- Recording of the adverse event
+- Assessment of treatment and event timelines
+- Documentation of seriousness criteria
+- Recording of concomitant medication
+- Assessment of dechallenge and rechallenge
+- Documentation of the suspected drug-event relationship
+
+---
+
+## Skills Demonstrated
+
+- ADR reporting
+- Pharmacovigilance documentation
+- Case data entry
+- Suspected drug identification
+- Adverse event documentation
+- Seriousness assessment
+- Medication history review
+- Dechallenge/rechallenge assessment
+- Structured safety case documentation
+
+---
+
+## Disclaimer
+
+This is a simulated educational case created for pharmacovigilance training and portfolio purposes. It does not contain real patient information and is not an actual safety report.
